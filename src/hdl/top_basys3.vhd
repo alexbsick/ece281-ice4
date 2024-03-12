@@ -70,7 +70,7 @@ end top_basys3;
 architecture top_basys3_arch of top_basys3 is 
 
 --Declare stoplight component here 
-
+ 
 
 component clock_divider is
 	generic ( constant k_DIV : natural := 2	);
